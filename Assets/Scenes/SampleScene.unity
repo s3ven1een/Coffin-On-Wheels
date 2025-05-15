@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 294653021}
   - component: {fileID: 294653020}
   - component: {fileID: 294653019}
+  - component: {fileID: 294653024}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -171,7 +172,7 @@ MonoBehaviour:
   playerCamera: {fileID: 1012301180}
   walkSpeed: 3
   runSpeed: 4
-  jumpPower: 0
+  jumpPower: 2
   gravity: 10
   lookSpeed: 2
   lookXLimit: 45
@@ -279,6 +280,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294653017}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &294653024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294653017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad9892becfff8d4f801575904e949d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &405959333
 GameObject:
   m_ObjectHideFlags: 0
